@@ -202,7 +202,7 @@ Slideout.prototype._initTouchEvents = function() {
    */
   this._preventMove = function(eve) {
     if (self._moved) {
-      eve.preventDefault();
+      // eve.preventDefault();
     }
   };
 
